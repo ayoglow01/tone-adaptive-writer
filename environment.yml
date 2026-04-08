@@ -1,0 +1,12 @@
+name: tone-adaptive-writer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - streamlit==1.56.0
+    - crewai==0.11.2
+    - openai
+    - groq
+    - python-dotenv
