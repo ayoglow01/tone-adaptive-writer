@@ -1,5 +1,5 @@
 from crewai import Agent, Task, Crew
-from crewai.llm import LLM
+from crewai import LLM
 from dotenv import load_dotenv
 import os
 
